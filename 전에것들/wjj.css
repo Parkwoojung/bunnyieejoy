@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: S-CoreDream-3Light;
+}
+
+/*menu*/
+.menu a {
+  text-decoration: none;
+  color: rgb(78, 75, 75);
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+  justify-content: center;
+}
+
+.menu ul li a {
+  color: rgb(102, 102, 102);
+}
+
+.menu ul li a:hover {
+  color: rgb(252, 204, 212);
+  text-decoration: none;
+}
+.main h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main {
+  height: 620px;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+.intro {
+  font-size: 50px;
+  font-weight: bold;
+  bottom: 30px;
+  height: 810px;
+  width: 1517px;
+  display: flex;
+  background-color: rgb(248, 237, 240);
+  position: relative;
+  bottom: -60px;
+  position: relative;
+  left: -120px;
+}
+
+.intrro {
+  position: relative;
+  right: -90px;
+  position: relative;
+  bottom: -50px;
+  font-weight: bold;
+}
+.grape {
+  height: 610px;
+  display: flex;
+  margin: 970px;
+  position: relative;
+  top: -1350px;
+}
+
+.g1 {
+  width: 90px;
+  height: 400px;
+  background-color: rgb(197, 197, 197);
+}
+
+.g2 {
+  width: 90px;
+  height: 340px;
+  background-color: rgb(197, 197, 197);
+}
+
+.g3 {
+  width: 90px;
+  height: 280px;
+  background-color: rgb(197, 197, 197);
+}
+
+.g4 {
+  width: 90px;
+  height: 220px;
+  background-color: rgb(197, 197, 197);
+}
+
+.aboutme {
+  font-size: 50px;
+  font-weight: bold;
+  bottom: 40px;
+  height: 610px;
+  position: relative;
+  top: -2430px;
+  position: relative;
+  left: -30px;
+}
+.my {
+  position: relative;
+  top: -2890px;
+  position: relative;
+  left: -40px;
+  line-height: 32px;
+}
+
+.mys {
+  position: relative;
+  top: -3850px;
+  padding: 400px;
+}
+
+/* ccontainer */
+.ccontainer {
+  height: 2000px;
+  padding-left: 8%;
+}
+
+.img1 {
+  position: relative;
+  top: -2940px;
+  position: relative;
+  left: -10px;
+}
+
+.img2 {
+  position: relative;
+  top: -2910px;
+  position: relative;
+  left: -20px;
+}
+.myself {
+  position: relative;
+}
+
+/*project*/
+
+.p1 {
+  font-size: 35px;
+  position: relative;
+  left: -560px;
+  position: relative;
+  top: -4200px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1517px;
+  height: 900;
+  background-color: rgb(218, 218, 218);
+}
+.info_box {
+  width: 1175px;
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  left: -40px;
+  position: relative;
+  bottom: -400px;
+  text-align: center;
+}
+
+.info_box a {
+  text-decoration: none;
+  color: black;
+}
+
+.clear {
+  margin-block: 0;
+  font-size: 2px;
+  position: relative;
+  top: -30px;
+}
+
+.info_box li {
+  float: left;
+  margin: 0 0 0 100px;
+  position: relative;
+  width: 260px;
+  list-style: none;
+}
+
+.info_box em {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 170px;
+}
+.info_box img {
+  width: 100%;
+  height: 170px;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+.info_box li:hover img {
+  transform: scale(1.1);
+}
+/* 38:26 */
+.info_box li a > div {
+  padding: 25px 20px 0px;
+  height: 150px;
+  transition: all 0.3s;
+}
+.info_box li:hover a > div {
+  background: rgb(252, 240, 243);
+}
+.info_box li:hover a * {
+  transition: all 0.3s;
+}
+.info_box li:hover a * {
+  color: rgb(73, 72, 72);
+}
+.info_box li a h3 {
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.info_box li a p {
+  padding: 2px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.info_box li a > div div {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  height: 54px;
+  line-height: 54px;
+  width: 220px;
+  border-top: 1px solid rgb(148, 148, 148);
+  text-align: right;
+  font-size: 18px;
+}
+
+.info_box li a .ico {
+  position: absolute;
+  left: 20px;
+  top: 137px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+}
+
+.info_box ul > * {
+  margin-top: 30px;
+}
+.btn_center > .btn_more {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.bbox {
+  position: relative;
+  top: -6000px;
+}
+
+.projectt {
+  position: relative;
+  bottom: -800px;
+  position: relative;
+  left: -1160px;
+}
+
+.projecto {
+  position: relative;
+  top: -100px;
+  position: relative;
+  bottom: -1700px;
+}

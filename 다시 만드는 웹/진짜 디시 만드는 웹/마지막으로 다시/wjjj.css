@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: S-CoreDream-3Light;
+}
+/*메뉴바*/
+.menu a {
+  text-decoration: none;
+  color: rgb(78, 75, 75);
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+  justify-content: center;
+}
+
+.menu ul li a {
+  color: rgb(102, 102, 102);
+}
+
+.menu ul li a:hover {
+  color: rgb(252, 204, 212);
+  text-decoration: none;
+}
+
+/*main시작*/
+.main {
+  position: relative;
+  bottom: -100px;
+  padding: 80px;
+  font-weight: bold;
+  font-size: 25px;
+  box-sizing: border-box;
+  height: 700px;
+}
+
+.img1 {
+  margin: 800px;
+  position: relative;
+  top: -1085px;
+
+  /*aboutme시작*/
+}
+.aboutme {
+  background-color: rgb(255, 245, 245);
+
+  box-sizing: border-box;
+  width: 1517px;
+  height: 800px;
+}
+.textabout {
+  font-weight: bold;
+  font-size: 23px;
+  padding: 80px;
+  position: relative;
+  top: -65px;
+}
+.photoabout {
+  padding: 120px;
+  position: relative;
+  top: -280px;
+  line-height: 30px;
+}
+
+.jujul {
+  position: absolute;
+  right: 200px;
+  top: 950px;
+}
+
+/*project시작*/
+
+.info_box {
+  width: 1175px;
+  margin: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  height: 800px;
+  text-align: center;
+  position: relative;
+  bottom: -120px;
+}
+.info_box a {
+  text-decoration: none;
+  color: black;
+}
+.info_box h2 {
+  padding: 20px 41px;
+  font-size: 10px;
+  color: #777;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 36px;
+  margin-block: 0;
+}
+
+.info_box li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  position: relative;
+  width: 260px;
+  list-style: none;
+}
+.info_box li:first-child {
+  margin: 0;
+}
+.info_box em {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 170px;
+}
+.info_box img {
+  width: 100%;
+  height: 170px;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+.info_box li:hover img {
+  transform: scale(1.1);
+}
+/* 38:26 */
+.info_box li a > div {
+  padding: 25px 20px 0px;
+  height: 150px;
+  transition: all 0.3s;
+}
+.info_box li:hover a > div {
+  background: rgb(253, 241, 241);
+}
+.info_box li:hover a * {
+  transition: all 0.3s;
+}
+.info_box li:hover a * {
+  color: rgb(0, 0, 0);
+}
+.info_box li a h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.info_box li a p {
+  padding: 2px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+.info_box li a > div div {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  height: 54px;
+  line-height: 54px;
+  width: 220px;
+  border-top: 1px solid rgb(158, 158, 158);
+  font-size: 8px;
+}
+.info_box li a .ico {
+  position: absolute;
+  left: 20px;
+  top: 137px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+}
+
+.info_box ul + * {
+  margin-top: 30px;
+}
+
+.project {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: -1740px;
+  padding: 80px;
+}
+
+/*project2시작*/
+.colorbox {
+  background-color: rgb(240, 240, 240);
+  height: 1000px;
+  position: relative;
+  bottom: -180px;
+}
+.pproject {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 80px;
+}
+
+.info_boxx {
+  width: 1175px;
+  margin: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  height: 800px;
+  text-align: center;
+  position: relative;
+  bottom: -125px;
+}
+.info_boxx a {
+  text-decoration: none;
+  color: black;
+}
+.info_boxx h2 {
+  padding: 20px 41px;
+  font-size: 10px;
+  color: #777;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 36px;
+  margin-block: 0;
+}
+
+.info_boxx li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  position: relative;
+  width: 260px;
+  list-style: none;
+}
+.info_boxx li:first-child {
+  margin: 0;
+}
+.info_boxx em {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 170px;
+}
+.info_boxx img {
+  width: 100%;
+  height: 170px;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+.info_boxx li:hover img {
+  transform: scale(1.1);
+}
+/* 38:26 */
+.info_boxx li a > div {
+  padding: 25px 20px 0px;
+  height: 150px;
+  transition: all 0.3s;
+}
+.info_boxx li:hover a > div {
+  background: rgb(253, 241, 241);
+}
+.info_boxx li:hover a * {
+  transition: all 0.3s;
+}
+.info_boxx li:hover a * {
+  color: rgb(0, 0, 0);
+}
+.info_boxx li a h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.info_boxx li a p {
+  padding: 2px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+.info_boxx li a > div div {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  height: 54px;
+  line-height: 54px;
+  width: 220px;
+  border-top: 1px solid rgb(158, 158, 158);
+  font-size: 8px;
+}
+.info_boxx li a .ico {
+  position: absolute;
+  left: 20px;
+  top: 137px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+}
+
+.info_boxx ul + * {
+  margin-top: 30px;
+}
+
+/*dataanalysis시작*/
+
+.acolorbox {
+  background-color: rgb(255, 245, 245);
+  position: relative;
+  bottom: -180px;
+}
+.info_boxxx {
+  width: 1175px;
+  margin: 0 auto;
+  list-style: none;
+  box-sizing: border-box;
+  height: 630px;
+  text-align: center;
+  position: relative;
+  bottom: -125px;
+}
+.info_boxxx a {
+  text-decoration: none;
+  color: black;
+}
+.info_boxxx h2 {
+  padding: 20px 41px;
+  font-size: 10px;
+  color: #777;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 36px;
+  margin-block: 0;
+}
+
+.info_boxxx li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  position: relative;
+  width: 260px;
+  list-style: none;
+}
+.info_boxxx li:first-child {
+  margin: 0;
+}
+.info_boxxx em {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 170px;
+}
+.info_boxxx img {
+  width: 100%;
+  height: 170px;
+  transform: scale(1.03);
+  transition: all 0.3s;
+}
+.info_boxxx li:hover img {
+  transform: scale(1.1);
+}
+/* 38:26 */
+.info_boxxx li a > div {
+  padding: 25px 20px 0px;
+  height: 150px;
+  transition: all 0.3s;
+}
+.info_boxxx li:hover a > div {
+  background: rgb(231, 231, 231);
+}
+.info_boxxx li:hover a * {
+  transition: all 0.3s;
+}
+.info_boxxx li:hover a * {
+  color: rgb(0, 0, 0);
+}
+.info_boxxx li a h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.info_boxxx li a p {
+  padding: 2px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+.info_boxxx li a > div div {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  height: 54px;
+  line-height: 54px;
+  width: 220px;
+  border-top: 1px solid rgb(158, 158, 158);
+  font-size: 8px;
+}
+.info_boxxx li a .ico {
+  position: absolute;
+  left: 20px;
+  top: 137px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  font-size: 18px;
+}
+
+.info_boxxx ul + * {
+  margin-top: 30px;
+}
+
+/*portfolio마지막*/
+.endport {
+  font-size: 33px;
+  position: relative;
+  bottom: -800px;
+  padding: 100px;
+  font-weight: bold;
+}
+
+.contact {
+  font-size: 17px;
+  position: relative;
+  bottom: -680px;
+  padding: 100px;
+  height: 50px;
+}
