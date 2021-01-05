@@ -69,10 +69,16 @@ body {
 .jujul {
   position: absolute;
   right: 200px;
-  top: 950px;
+  top: 850px;
+  line-height: 30px;
 }
 
 /*project시작*/
+
+.info_box li a .ico.no1 {
+  color: rgb(97, 96, 96);
+  background-color: #e0e0e0;
+}
 
 .info_box {
   width: 1175px;
@@ -182,6 +188,12 @@ body {
 }
 
 /*project2시작*/
+
+.info_boxx li a .ico.no1 {
+  color: rgb(97, 96, 96);
+  background-color: #ffffff;
+}
+
 .colorbox {
   background-color: rgb(240, 240, 240);
   height: 1000px;

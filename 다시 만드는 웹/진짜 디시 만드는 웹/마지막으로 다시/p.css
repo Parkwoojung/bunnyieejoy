@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: S-CoreDream-3Light;
+}
+/*manu시작*/
+.menu a {
+  text-decoration: none;
+  color: rgb(78, 75, 75);
+}
+.menu ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+  justify-content: center;
+}
+
+.menu ul li a {
+  color: rgb(102, 102, 102);
+}
+
+.menu ul li a:hover {
+  color: rgb(252, 204, 212);
+  text-decoration: none;
+}
+/*Intro*/
+.who {
+  box-sizing: border-box;
+  width: 1519px;
+  height: 400px;
+  background-color: rgb(255, 245, 245);
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  bottom: -90px;
+}
