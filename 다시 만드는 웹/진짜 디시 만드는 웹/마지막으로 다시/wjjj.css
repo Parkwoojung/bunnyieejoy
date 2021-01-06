@@ -47,7 +47,6 @@ body {
 }
 .aboutme {
   background-color: rgb(255, 245, 245);
-
   box-sizing: border-box;
   width: 1517px;
   height: 800px;
@@ -55,21 +54,21 @@ body {
 .textabout {
   font-weight: bold;
   font-size: 23px;
-  padding: 80px;
+  padding: 130px;
   position: relative;
-  top: -65px;
+  top: -110px;
 }
 .photoabout {
-  padding: 120px;
+  padding: 125px;
   position: relative;
-  top: -280px;
+  top: -370px;
   line-height: 30px;
 }
 
 .jujul {
   position: absolute;
-  right: 200px;
-  top: 850px;
+  right: 170px;
+  top: 860px;
   line-height: 30px;
 }
 
