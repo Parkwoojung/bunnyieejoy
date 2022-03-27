@@ -45,7 +45,7 @@ body {
 
   /*aboutme시작*/
 }
-.aboutme {
+.aboutme 
   background-color: rgb(250, 229, 229);
   box-sizing: border-box;
   width: 1517px;
@@ -71,7 +71,7 @@ body {
   top: 860px;
   line-height: 30px;
 }
-
+ba
 /*project시작*/
 
 .info_box li a .ico.no1 {
